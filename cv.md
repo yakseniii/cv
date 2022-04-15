@@ -8,18 +8,18 @@ ___
 -Critical thinking    
 -Flexibility    
 -Ability to work under pressure    
-***
+___
 #### Skills:
 -C++    
 -Microsoft Excel     
 -Microsoft Word    
-***
+___
 #### Current studying:
 Content management, 1 grade, VSU named after P.M. Masherov
-***
+___
 #### English level:
 B2
-***
+___
 #### Some codes:
 ```с++
 class Circle   
