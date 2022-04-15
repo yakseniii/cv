@@ -1,9 +1,9 @@
 #  Kseniya Gavrilova
 ### Future content manager
-***
+___
 #### Contacts:
 **Phone:** (+375)447328858 | **Email:** ksuga311002@gmail.com
-***
+___
 #### Soft skills:
 -Critical thinking    
 -Flexibility    
