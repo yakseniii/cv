@@ -1,1 +1,1 @@
-https://github-yakseniii.github.io/cv/cv
+https://GITHUB-yakseniii.github.io/cv/cv
