@@ -1,25 +1,24 @@
 #  Kseniya Gavrilova
 ### Future content manager
-***
+___
 #### Contacts:
 **Phone:** (+375)447328858 | **Email:** ksuga311002@gmail.com
-***
+___
 #### Soft skills:
 -Critical thinking    
 -Flexibility    
--Ability to work under pressure    
-***
+___
 #### Skills:
 -C++    
 -Microsoft Excel     
 -Microsoft Word    
-***
+___
 #### Current studying:
 Content management, 1 grade, VSU named after P.M. Masherov
-***
+___
 #### English level:
 B2
-***
+___
 #### Some codes:
 ```с++
 class Circle   
