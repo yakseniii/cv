@@ -18,7 +18,6 @@
         <nav class="nav">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                 <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                 <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
@@ -29,11 +28,13 @@
     <main class="main">
         <div class="container main-container">
             <section class="section section-profile" id="profile">
-                <img src="" alt="Kseniya">
-                <div class="section-profile-title">
-                    <h1 class="section-title main-title">Gavrilova Kseniya</h1>
-                    <h2 class="section-subtitle">Future manager</h2>
-                </div>
+              <div class="section-profile-logo"> 
+                <img src="./assets/img/cv.jpg" alt="Kseniya">
+              </div>
+              <div class="section-profile-title">
+                  <h1 class="section-title main-title">Gavrilova Kseniya</h1>
+                  <h2 class="section-subtitle">student</h2>
+              </div>
             </section>  
             <section class="section" id="contacts">
                 <h3 class="section-contacts">Contacts</h3>
@@ -44,11 +45,74 @@
                     <li class="section-item contacts-item">Telegram: <a href="https://t.me/yakseniii" title="Telegram">@yakseniii</a></li>
                 </ul>
             </section>
-            <section class="section section-summary" id="summary"></section>
-            <section class="section section-skills" id="skills"></section>
-            <section class="section section-code" id="code"></section>
-            <section class="section section-education" id="education"></section>
-            <section class="section section-english" id="english"></section>
+            <section class="section section-skills" id="skills">
+              <h3>Skills</h3>
+              <br>
+              <ul>
+                <li>C++</li>    
+                <li>Microsoft Excel</li>    
+                <li>Microsoft Word</li>
+              </ul>
+            </section>
+            <section class="section section-code" id="code">
+              <h3>Code</h3>
+              <pre class="pre">
+<code>class Circle   
+{    
+  protected:    
+    double R;    
+  public:    
+    Circle(double R)    
+    {    
+      this->R = R;    
+    }    
+    double s1()    
+    {    
+      return 3.14 * (R * R);    
+    }    
+  };    
+class Ring :public Circle    
+{    
+  protected:    
+    double r;    
+  public:    
+    Ring(double r, double R) : Circle(R)    
+    {      
+      this->r = r;    
+    }    
+    double s2()    
+    {    
+      return (3.14 * R * R) - (3.14 * r * r);    
+    }    
+};    
+int main()    
+{    
+  setlocale(0, "rus");    
+  double r, R;    
+  cout << "Введите радиус большей окружности: ";    
+  cin >> R;    
+  cout << "Введите радиус меньшей окружности: ";   
+  cin >> r;    
+  Circle Ci(R);    
+  Ring Ri(r, R);    
+  cout << "Площадь круга равна " << Ci.s1() << "\n";    
+  cout << "Площадь кольца равна " << Ri.s2() << "\n";   
+  system("pause");   
+  return 0;   
+}</code>
+          </pre>
+            </section>
+            <section class="section section-education" id="education">
+            <h3>Current studying:</h3>
+            <br>Information resource management, 1 grade, VSU named after P.M. Masherov
+            <br><br>
+            <h3>Previous education:</h3>
+            <br>Gumnasium №1 named after J.I. Alferov, from 5th to 11th grade, GPA - 9.5
+            </section>
+            <section class="section section-english" id="english">
+            <h3>English level</h3>  
+            <br>В2
+            </section>
         </div>
     </main>
     <footer class="footer">
