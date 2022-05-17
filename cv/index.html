@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <div class="section-profile-logo">
+          <img src="./assets/img/cv.jpg" alt="Kseniya">
+        </div>
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Gavrilova Kseniya</h1>
+          <h2 class="section-subtitle">student</h2>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h3 class="section-contacts">Contacts</h3>
+        <ul class="section-list">
+          <li class="section-item contacts-item">Vitebsk, Belarus</li>
+          <li class="section-item contacts-item">Email: <a href="mailto:ksuga311002@gmail.com"
+              title="email">ksuga311002@gmail.com</a></li>
+          <li class="section-item contacts-item">Github: <a href="https://github.com/yakseniii"
+              title="github">yakseniii</a></li>
+          <li class="section-item contacts-item">Telegram: <a href="https://t.me/yakseniii"
+              title="Telegram">@yakseniii</a></li>
+        </ul>
+      </section>
+      <section class="section section-skills" id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>C++</li>
+          <li>Microsoft Excel</li>
+          <li>Microsoft Word</li>
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h4>Current studying:</h4>
+        Information resource management, 1 grade, VSU named after P.M. Masherov
+        <br><br>
+        <h4>Previous education:</h4>
+        Gumnasium №1 named after J.I. Alferov, from 5th to 11th grade, GPA - 9.5
+      </section>
+      <section class="section section-english" id="english">
+        <h3>English level</h3>
+        <br>Understanding: Listening B1, Reading C1.
+        <br>Speaking: B2
+        <br>Writing: B2 
+      </section>
+      <section class="section section-code" id="code">
+        <h3>Code</h3>
+        <pre class="pre">
+<code>class Circle   
+{    
+  protected:    
+    double R;    
+  public:    
+    Circle(double R)    
+    {    
+      this->R = R;    
+    }    
+    double s1()    
+    {    
+      return 3.14 * (R * R);    
+    }    
+  };    
+class Ring :public Circle    
+{    
+  protected:    
+    double r;    
+  public:    
+    Ring(double r, double R) : Circle(R)    
+    {      
+      this->r = r;    
+    }    
+    double s2()    
+    {    
+      return (3.14 * R * R) - (3.14 * r * r);    
+    }    
+};    
+</code>
+          </pre>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      2022
+      <a href="https://github.com/yakseniii" class="github nav-link">
+        yakseniii
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
